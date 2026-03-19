@@ -1,0 +1,11 @@
+﻿ID,Title,Description,Severity,Status
+BUG-001,Login Failure,User Cannot log in,critical,open
+BUG-002,Incorrect password error loop,User cannot log in even with correct credentials,critical,in progress
+BUG-003,Profile picture fails,Image upload returns error,medium,open
+BUG-004,Dashboard slowness,Dashboard takes over 10 seconds,low,open
+BUG-005,Search results not updating,Changing filters does not change results,medium,in progress
+BUG-006,Notification count incorrect,Unread count does not reset,low,open
+BUG-007,Form validation missing,required fields allow empty submission,high,closed
+BUG-008,Mobile site broken,Viewing site on mobile device impossible,critical,in progress
+BUG-009,Password reset not sent,Users don't receive password reset,critical,closed
+BUG-010,Session timeout quite short,Users logged out after 5 minutes,low,closed
