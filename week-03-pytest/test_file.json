@@ -2,61 +2,61 @@
     {
         "id": "BUG-001",
         "title": "Login Failure",
-        "severity": "critical",
+        "severity": "Critical",
         "status": "open"
     },
     {
         "id": "BUG-002",
         "title": "Incorrect password error loop",
-        "severity": "critical",
+        "severity": "Critical",
         "status": "in progress"
     },
     {
         "id": "BUG-003",
         "title": "Profile picture fails",
-        "severity": "medium",
+        "severity": "Medium",
         "status": "open"
     },
     {
         "id": "BUG-004",
         "title": "Dashboard slowness",
-        "severity": "low",
+        "severity": "Low",
         "status": "open"
     },
     {
         "id": "BUG-005",
         "title": "Search results not updating",
-        "severity": "medium",
+        "severity": "Medium",
         "status": "in progress"
     },
     {
         "id": "BUG-006",
         "title": "Notification count incorrect",
-        "severity": "low",
+        "severity": "Low",
         "status": "open"
     },
     {
         "id": "BUG-007",
         "title": "Form validation missing",
-        "severity": "high",
+        "severity": "High",
         "status": "closed"
     },
     {
         "id": "BUG-008",
         "title": "Mobile site broken",
-        "severity": "critical",
+        "severity": "Critical",
         "status": "in progress"
     },
     {
         "id": "BUG-009",
         "title": "Password reset not sent",
-        "severity": "critical",
+        "severity": "Critical",
         "status": "closed"
     },
     {
         "id": "BUG-010",
         "title": "Session timeout quite short",
-        "severity": "low",
+        "severity": "Low",
         "status": "closed"
     }
 ]

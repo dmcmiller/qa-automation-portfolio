@@ -12,9 +12,10 @@ def test_to_dict(): # Testing the 'to_dict' function
     result = test_bug.to_dict()
     assert result == {'id': '001', 'title': 'App crashes on login', 'severity': 'High', 'status': 'Open'}
 
-def test_invalid_severity(): # Testing for ValueError
+@pytest.mark.parametrize("severity", [ None, "", "Fatal", "Mild", "Severe"])
+def test_invalid_severity(severity): # Testing for ValueError
     with pytest.raises(ValueError):
-        severity_bug = BugReport('001', 'App crashes on login', None, 'Open')
+        severity_bug = BugReport('001', 'App crashes on login', severity, 'Open')
 
 def test_init_valid_inputs():# Verify the attributes in the init def are correct
     test_report = BugReport('002', 'Login Failure', 'Critical', 'Open')
