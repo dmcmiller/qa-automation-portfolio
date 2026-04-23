@@ -1,4 +1,4 @@
-﻿ID,Name,Description,Severity,Status
+﻿ID,Title,Description,Severity,Status
 BUG-001,Login Failure,User Cannot log in,critical,open
 BUG-002,Incorrect password error loop,User cannot log in even with correct credentials,critical,in progress
 BUG-003,Profile picture fails,Image upload returns error,medium,open
