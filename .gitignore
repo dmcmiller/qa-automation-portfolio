@@ -4,6 +4,10 @@ __pycache__/
 venv/
 *.json
 Functions/
+debug/
+lists/
+loops/
+oop/
 dishonestcapacity.py
 oppositeday.py
 scratch-2.py
