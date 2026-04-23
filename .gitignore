@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 venv/
 *.json
+Functions/
+dishonestcapacity.py
+oppositeday.py
+scratch-2.py
+scratch-3.py
+scratch.py
