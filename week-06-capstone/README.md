@@ -10,3 +10,6 @@ This week combined the efforts of the past few weeks, from basic python knowledg
 - Run the full test `pytest .\test_api.py -v`
 - Run the parametrized tests `pytest -v -k "test_user_values_not_empty or test_post_response"`
 - Run the various marked tests `pytest .\test_api.py -v -m {marker}` - marker being one of four options: smoke, status, schema, data
+
+## Generate HTML report
+- Run the following to generate a Pytest HTML report `pytest --html=api_test_results.html -v`
