@@ -1,6 +1,4 @@
 # QA Automation Portfolio
-**Da'Ron McMiller** | Mobile QA Support Engineer → QA Automation Engineer / SDET
-
 This repository documents a structured 26-week transition into QA Automation Engineering. 
 Each folder represents a week of study, practice, and delivered assignments.
 
